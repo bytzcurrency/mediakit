@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ site.locale | default: "en" }}">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/slatecurrency/mediakit">SLATE Media Kit</a> is an open source project maintained by <a href="https://github.com/slatecurrency">SLATE</a>.</span>
+      </footer>
+    </section>
+  </body>
+</html>
